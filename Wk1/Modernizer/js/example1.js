@@ -1,4 +1,4 @@
-if(Modernizer.canvas){
+if(Modernizr.canvas){
 	//Canvas is supported
 	
 	var theCanvas = document.getElementById("Canvas1");
@@ -12,4 +12,4 @@ if(Modernizer.canvas){
 		//Canvas is not supported
 		//Polyfill would go here
 	}
-	console.log(Modernizer);
+	console.log(Modernizr);
