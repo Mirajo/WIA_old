@@ -13,3 +13,12 @@ if(Modernizr.canvas){
 		//Polyfill would go here
 	}
 	console.log(Modernizr);
+	
+	if(Modernizr.draganddrop){
+	ctx.font = "25pt Georgia";
+	ctx.fillText("Drag and Drop Works" , 21, 120)	
+	
+	}else{
+		//Polyfill would go here
+		
+		}
